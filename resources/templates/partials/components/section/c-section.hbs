@@ -1,0 +1,35 @@
+---
+component: section
+---
+
+<section class="c-section {{section-class}}">
+
+	{{#xif " 'section-header' == true || 'section-h1' != null || 'section-h2' != null "}}
+		{{> c-section__header}}
+	{{/xif}}
+
+	{{#if section-figure }}
+		{{> c-figure }}
+	{{/if}}
+
+	<div class="section__content {{section-content-classes}}">
+		{{#if section-summary}}
+			{{{truncate section-content section-summary "..." }}}
+		{{else}}
+		{{! Use md files (md section-md) or json content (section-content) or both}}
+
+			{{{ section-content }}}
+			{{#if section-md}}
+				{{md section-md}}
+			{{/if}}
+
+		{{/if}}
+	</div>
+
+	{{#if section-lesson}}
+		<div class="section__lesson">
+			<span>{{section-lesson}}</span>
+		</div>
+	{{/if}}
+
+</section>

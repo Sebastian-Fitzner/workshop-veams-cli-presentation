@@ -1,0 +1,52 @@
+{
+  "name": "Veams-Cli-Workshop",
+  "version": "1.0.2",
+  "author": {
+    "name": "Sebastian Fitzner",
+    "email": "",
+    "url": "http://github.com/sebastian-fitzner/"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "assemble": "~0.4.42",
+    "grunt": "~0.4.2",
+    "grunt-autoprefixer": "~0.6.5",
+    "grunt-browser-sync": "*",
+    "grunt-combine-media-queries": "*",
+    "grunt-concurrent": "~0.4.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-connect": "~0.5.0",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-cssmin": "~0.7.0",
+    "grunt-contrib-htmlmin": "~0.3.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-fileindex": "^0.1.0",
+    "grunt-grunticon": "~1.0.0-beta.0",
+    "grunt-htmlhint": "~0.4.0",
+    "grunt-newer": "~0.5.4",
+    "grunt-sass": "~1.0.0",
+    "grunt-sync": "~0.0.5",
+    "grunt-text-replace": "~0.3.11",
+    "grunt-version": "^1.0.0",
+    "handlebars-helper-autolink": "^0.1.1",
+    "jit-grunt": "^0.3.2",
+    "load-grunt-configs": "*",
+    "lodash": "^2.4.1",
+    "time-grunt": "*"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/sebastian-fitzner/veams-cli-workshop/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "handlebars-helper-autolink"
+  ]
+}

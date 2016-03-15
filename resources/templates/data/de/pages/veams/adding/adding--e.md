@@ -1,0 +1,1 @@
+Go into your project (`project-veams`) and add a block (`logo`), a component (`teaser`) and an utility (`section`) to your project.

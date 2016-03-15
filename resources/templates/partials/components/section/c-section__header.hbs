@@ -1,0 +1,27 @@
+---
+component: Section Header
+---
+
+<header class="section__header">
+
+	{{#if section-gadget }}
+		<span class="section__header-gadget">{{section-gadget}}</span>
+	{{/if}}
+
+	{{#if section-h1 }}
+		<h1>{{ section-h1 }}</h1>
+	{{/if}}
+
+	{{#if section-h2 }}
+		<h2>{{ section-h2 }}</h2>
+	{{/if}}
+
+	{{#if section-link }}
+		<a class="section__link">{{ section-link }}</a>
+	{{/if}}
+
+	{{#if section-h3 }}
+		<h3 class="section__header-h3">{{ section-h3 }}</h3>
+	{{/if}}
+
+</header>

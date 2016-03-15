@@ -1,0 +1,30 @@
+---
+title: Build Better Prototypes with Veams
+menuLink: Home
+sortOrder: 01
+---
+
+{{#extend "tpl-default"}}
+	{{#content "body"}}
+
+		<div class="reveal">
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				{{#with veams}}
+					{{#each data}}
+						{{#if data}}
+							<section>
+								{{#each data}}
+									{{> c-section }}
+								{{/each}}
+							</section>
+						{{else}}
+							{{> c-section }}
+						{{/if}}
+					{{/each}}
+				{{/with}}
+			</div>
+		</div>
+
+	{{/content}}
+{{/extend}}

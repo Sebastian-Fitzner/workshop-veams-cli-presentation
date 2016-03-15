@@ -1,0 +1,321 @@
+{
+	"data": [
+		{
+			"section-h1": "Veams-Cli Workshop",
+			"section-content-classes": "is-centered",
+			"section-md": "resources/templates/data/de/pages/veams/general/Intro.md"
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Introduction"
+				},
+				{
+					"section-h2": "Why Veams-Cli?",
+					"section-content-classes": "is-small is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/veams/veams--why.md"
+				},
+				{
+					"section-h2": "Installation of Veams-Cli",
+					"section-content-classes": "is-small is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/veams/veams--installation.md"
+				},
+				{
+					"section-h2": "Overview of Veams",
+					"section-content-classes": "is-small is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/veams/veams--overview.md"
+				},
+				{
+					"section-h2": "How to use Veams-CLi",
+					"section-content-classes": "is-small is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/veams/veams--usage.md"
+				},
+				{
+					"section-h2": "Commands & Arguments",
+					"section-content-classes": "is-small is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/veams/veams--commands.md"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"section-gadget": "5 Min",
+					"section-h1": "Exercise",
+					"section-class": "is-exercise",
+					"section-md": "resources/templates/data/de/pages/veams/veams/veams--e.md",
+					"section-lesson": "Veams-Cli-Workshop/_LESSONS/Lesson-01"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Scaffold Projects & Blueprints"
+				},
+				{
+					"section-h2": "Scaffold a new project",
+					"section-content-classes": "is-small is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/scaffold/scaffold--projects.md"
+				},
+				{
+					"section-h2": "What is a blueprint?",
+					"section-content-classes": "is-small is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/scaffold/scaffold--blueprint-definition.md"
+				},
+				{
+					"section-h2": "Scaffold a new blueprint",
+					"section-content-classes": "is-small is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/scaffold/scaffold--blueprint.md"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"section-gadget": "5 Min",
+					"section-h1": "Exercise 02.01",
+					"section-class": "is-exercise",
+					"section-md": "resources/templates/data/de/pages/veams/scaffold/scaffold--e.md",
+					"section-lesson": "Veams-Cli-Workshop/_LESSONS/Lesson-02-01"
+				},
+				{
+					"section-gadget": "10 Min",
+					"section-h1": "Exercise 02.02",
+					"section-class": "is-exercise",
+					"section-md": "resources/templates/data/de/pages/veams/scaffold/scaffold--e2.md",
+					"section-lesson": "Veams-Cli-Workshop/_LESSONS/Lesson-02-02"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Installation Routines with Veams"
+				},
+				{
+					"section-h2": "What can you install?",
+					"section-content-classes": "is-small is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/install/install--extensions.md"
+				},
+				{
+					"section-h2": "Install Veams-JS",
+					"section-content-classes": "is-small is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/install/install--veamsjs.md"
+				},
+				{
+					"section-h2": "Install a Veams-Component",
+					"section-content-classes": "is-small is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/install/install--veams-component.md"
+				},
+				{
+					"section-h2": "Install Grunt Plugins",
+					"section-content-classes": "is-small is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/install/install--gm.md"
+				},
+				{
+					"section-h2": "Install Templating Helpers",
+					"section-content-classes": "is-small is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/install/install--th.md"
+				},
+				{
+					"section-h2": "Install a bower Component",
+					"section-content-classes": "is-small is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/install/install--bc.md"
+				},
+				{
+					"section-h2": "Install a blueprint",
+					"section-content-classes": "is-small is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/install/install--bp.md"
+				},
+				{
+					"section-h2": "Man, that was much content ...",
+					"section-content-classes": "is-small is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/install/install--end.md"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"section-gadget": "5 Min",
+					"section-h1": "Exercise 03.01",
+					"section-class": "is-exercise",
+					"section-md": "resources/templates/data/de/pages/veams/install/install--e.md",
+					"section-lesson": "Veams-Cli-Workshop/_LESSONS/Lesson-03"
+				},
+				{
+					"section-gadget": "5 Min",
+					"section-h1": "Exercise 03.02",
+					"section-class": "is-exercise",
+					"section-md": "resources/templates/data/de/pages/veams/install/install--e2.md",
+					"section-lesson": "Veams-Cli-Workshop/_LESSONS/Lesson-03"
+				},
+				{
+					"section-gadget": "5 Min",
+					"section-h1": "Exercise 03.03",
+					"section-class": "is-exercise",
+					"section-md": "resources/templates/data/de/pages/veams/install/install--e3.md",
+					"section-lesson": "Veams-Cli-Workshop/_LESSONS/Lesson-03"
+				},
+				{
+					"section-gadget": "5 Min",
+					"section-h1": "Exercise 03.04",
+					"section-class": "is-exercise",
+					"section-md": "resources/templates/data/de/pages/veams/install/install--e4.md",
+					"section-lesson": "Veams-Cli-Workshop/_LESSONS/Lesson-03"
+				},
+				{
+					"section-gadget": "5 Min",
+					"section-h1": "Exercise 03.05",
+					"section-class": "is-exercise",
+					"section-md": "resources/templates/data/de/pages/veams/install/install--e5.md",
+					"section-lesson": "Veams-Cli-Workshop/_LESSONS/Lesson-03"
+				},
+				{
+					"section-gadget": "5 Min",
+					"section-h1": "Exercise 03.06",
+					"section-class": "is-exercise",
+					"section-md": "resources/templates/data/de/pages/veams/install/install--e6.md",
+					"section-lesson": "Veams-Cli-Workshop/_LESSONS/Lesson-03"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Adding Blueprints with Veams"
+				},
+				{
+					"section-h2": "Add a new block",
+					"section-content-classes": "is-small is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/adding/adding--block.md"
+				},
+				{
+					"section-h2": "Add a new component",
+					"section-content-classes": "is-small is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/adding/adding--component.md"
+				},
+				{
+					"section-h2": "Add a new utility",
+					"section-content-classes": "is-small is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/adding/adding--utility.md"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"section-gadget": "15 Min",
+					"section-h1": "Exercise 04",
+					"section-class": "is-exercise",
+					"section-md": "resources/templates/data/de/pages/veams/adding/adding--e.md",
+					"section-lesson": "Veams-Cli-Workshop/_LESSONS/Lesson-04"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Veams Configuration"
+				},
+				{
+					"section-h2": "How does Veams work?",
+					"section-content-classes": "is-small is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/config/config--how.md"
+				},
+				{
+					"section-h2": "Configuration file",
+					"section-content-classes": "is-small is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/config/config--file.md"
+				},
+				{
+					"section-h2": "Configuration in detail I",
+					"section-content-classes": "is-small is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/config/config--detail.md"
+				},
+				{
+					"section-h2": "Configuration in detal II",
+					"section-content-classes": "is-small is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/config/config--responsibility.md"
+				},
+				{
+					"section-h2": "Insertpoint comments",
+					"section-content-classes": "is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/config/config--insertpoint.md"
+				},
+				{
+					"section-h2": "INSERT Keys in Blueprints or Veams-Components",
+					"section-content-classes": "is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/config/config--insert-tpl.md"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"section-gadget": "20 Min",
+					"section-h1": "Exercise 05",
+					"section-class": "is-exercise",
+					"section-md": "resources/templates/data/de/pages/veams/config/config--e.md",
+					"section-lesson": "Veams-Cli-Workshop/_LESSONS/Lesson-05"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Veams Customization"
+				},
+				{
+					"section-h2": "Using Veams without the Veams-Methodology?",
+					"section-content-classes": "is-small is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/custom/custom--usage.md"
+				},
+				{
+					"section-h2": "Customization limits",
+					"section-content-classes": "is-small is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/custom/custom--limits.md"
+				},
+				{
+					"section-h2": "Customization of adding blocks, components or utilities",
+					"section-content-classes": "is-small is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/custom/custom--bcu.md"
+				},
+				{
+					"section-h2": "Variables",
+					"section-content-classes": "is-small is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/custom/custom--variables.md"
+				},
+				{
+					"section-h2": "Custom Templates",
+					"section-content-classes": "is-small is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/custom/custom--templates.md"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"section-gadget": "15 Min",
+					"section-h1": "Exercise 06.01",
+					"section-class": "is-exercise",
+					"section-md": "resources/templates/data/de/pages/veams/custom/custom--e.md",
+					"section-lesson": "Veams-Cli-Workshop/_LESSONS/Lesson-06"
+				},
+				{
+					"section-gadget": "15 Min",
+					"section-h1": "Exercise 06.02",
+					"section-class": "is-exercise",
+					"section-md": "resources/templates/data/de/pages/veams/custom/custom--e2.md",
+					"section-lesson": "Veams-Cli-Workshop/_LESSONS/Lesson-06"
+				}
+			]
+		},
+		{
+			"section-h1": "This is the End",
+			"section-content-classes": "is-centered",
+			"section-md": "resources/templates/data/de/pages/veams/general/outro.md"
+		}
+	]
+}

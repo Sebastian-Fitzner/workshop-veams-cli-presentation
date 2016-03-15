@@ -1,0 +1,7 @@
+- __name:__        real name with any character
+- __filename:__    hyphenated name
+- __bpName:__      camel cased name
+- __bpWrapWith:__  wrapWith boolean
+- __bpJsName:__    camel cased name with a capitalized first letter
+- __bpWithJs:__    JS boolean
+- __bpType:__      Type of blueprint ('c-', 'b-', 'u-', '')

@@ -1,0 +1,19 @@
+---
+block: sitemap
+---
+
+{{! USED IN:
+	* pages/index.hbs
+}}
+<div class="b-sitemap">
+	<ul class="sitemap__list">
+		{{#withSort pages "data.sortOrder"}}
+			{{#is this.filename "index.html"}}
+			{{else}}
+				<li class="sitemap__list-elements">
+					<a href="{{autolink}}" class="sitemap__list-links{{#is ../page.dest this.dest}} is-active{{/is}}">{{data.menuLink}}</a>
+				</li>
+			{{/is}}
+		{{/withSort}}
+	</ul>
+</div>

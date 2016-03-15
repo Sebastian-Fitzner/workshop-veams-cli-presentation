@@ -1,0 +1,163 @@
+.reveal .slides .stack > section,
+.reveal .slides > section {
+	text-align: left;
+	column-count: 1;
+	column-width: 100%;
+
+	&.markdown {
+		margin-bottom: 1em;
+	}
+	.is-two-columns {
+		@include column-count(2);
+		@include column-width(50%);
+	}
+
+	.is-centered {
+		text-align: center;
+	}
+	.is-small {
+		width: 60%;
+		margin-left: 20%;
+	}
+
+	p {
+		line-height: 140%;
+		font-size: 28px;
+	}
+
+	code {
+		font-size: 24px;
+	}
+	li {
+		font-size: 28px;
+	}
+
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+
+	h4 {
+		text-align: center;
+		margin: 1em 0 0.35em 0;
+	}
+
+	.is-killed {
+		&::before,
+		&::after {
+			@extend %pseudo;
+
+			width: 100%;
+			height: 10px;
+			background-color: red;
+			top: 50%;
+		}
+
+		&::before {
+			left: 0;
+			transform: rotate(45deg) translateY(-50%);
+		}
+		&::after {
+			right: 0;
+			transform: rotate(-45deg) translateY(-50%);
+		}
+	}
+
+	&.is-exercise {
+		width: 70%;
+		margin-left: 15%;
+		background: #000;
+		color: #fff;
+		padding: 3%;
+
+		&.is-centered {
+			text-align: center;
+		}
+
+		&::before {
+			content: '';
+			position: absolute;
+			left: 0;
+			bottom: -50px;
+			width: 0;
+			height: 0;
+			border-top: 55px solid black;
+			border-right: 60px solid transparent;
+		}
+
+		h1, p, h2, h3, a {
+			color: #fff;
+		}
+
+		h1, p, h2, h3 {
+			text-align: left;
+		}
+
+		h1 {
+			font-size: 60px;
+			text-shadow: none;
+		}
+
+		h2 {
+			font-size: 40px;
+			text-transform: none;
+		}
+
+		h3 {
+			font-size: 35px;
+			display: block;
+			margin-top: 1em;
+		}
+
+		h4 {
+			font-size: 75px;
+			display: block;
+			color: #fff;
+			margin: 1em 0;
+		}
+
+		p {
+			line-height: 140%;
+		}
+
+		code {
+			background: #333;
+			font-family: Courier, monospace;
+		}
+	}
+
+	em, i {
+		font-style: italic;
+		background: #999;
+		color: #fff;
+		padding: 0.2em 0.3em;
+		letter-spacing: 1px;
+		margin: 2px 0;
+		display: inline-block;
+	}
+
+	.section__header {
+		text-align: center;
+	}
+
+	.section__header-gadget {
+		float: right;
+		font-size: 2rem;
+		text-transform: uppercase;
+		font-weight: bold;
+		line-height: 100%;
+	}
+
+	.section__lesson {
+		position: absolute;
+		bottom: -50px;
+		right: 0;
+		font-size: 20px;
+		color: #000;
+	}
+
+	.section__link,
+	.section__header-h3 {
+		text-align: center;
+	}
+}

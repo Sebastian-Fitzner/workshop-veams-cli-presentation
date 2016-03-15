@@ -1,0 +1,41 @@
+.b-sitemap {
+	.sitemap__list {
+		@include outer-container;
+	}
+	.sitemap__list-elements {
+		@include span-columns(4);
+		color: #fff;
+		float: left;
+		list-style: none;
+		text-align: center;
+	}
+	.sitemap__list-links {
+		@include transition(all ease 300ms);
+		background: #666;
+		font-family: 'League Gothic', Impact, sans-serif;
+		letter-spacing: 0.02em;
+		color: #ccc;
+		text-transform: uppercase;
+		padding: 10px 0;
+		display: block;
+		text-decoration: none;
+
+		&:hover {
+			background: #000;
+			color: #fff;
+		}
+	}
+
+	.hide-nav & {
+		@include transition(all ease 300ms);
+		@include transform(translateY(-100%));
+
+		width: 100%;
+		position: absolute;
+		z-index: 100;
+	}
+
+	.js-show-nav & {
+		@include transform(translateY(0%));
+	}
+}
