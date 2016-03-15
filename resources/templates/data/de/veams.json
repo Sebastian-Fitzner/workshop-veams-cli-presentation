@@ -187,6 +187,11 @@
 					"section-h1": "Adding Blueprints with Veams"
 				},
 				{
+					"section-h2": "What can you add?",
+					"section-content-classes": "is-small is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/adding/adding--intro.md"
+				},
+				{
 					"section-h2": "Add a new block",
 					"section-content-classes": "is-small is-centered",
 					"section-md": "resources/templates/data/de/pages/veams/adding/adding--block.md"
@@ -211,6 +216,15 @@
 					"section-class": "is-exercise",
 					"section-md": "resources/templates/data/de/pages/veams/adding/adding--e.md",
 					"section-lesson": "Veams-Cli-Workshop/_LESSONS/Lesson-04"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"section-h1": "When to use what?",
+					"section-content-classes": "is-small is-centered",
+					"section-md": "resources/templates/data/de/pages/veams/using/using--intro.md"
 				}
 			]
 		},
